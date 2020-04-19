@@ -1,0 +1,5 @@
+docker build -f Dockerfile -t <dockeruname/reponame> .
+docker push <dockeruname/reponame>
+
+docker pull <dockeruname/reponame>
+docker run --rm -p 5000:5080 <dockeruname/reponame>
